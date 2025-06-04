@@ -1,0 +1,15 @@
+pandas>=2.0.0
+folium>=0.14.0
+plotly>=5.15.0
+geopandas>=0.14.0
+pyogrio>=0.6.0
+shapely>=2.0.0
+fiona>=1.9.0
+numpy>=1.24.0
+
+geopandas, pyogrio, and fiona are useful for working with GeoJSON files and shapefiles (used to add state boundaries).
+
+shapely and numpy are often used as dependencies by geopandas and folium.
+
+If you're only running the base map and charts (without shapefile operations), you can omit geopandas, pyogrio, and fiona.
+
